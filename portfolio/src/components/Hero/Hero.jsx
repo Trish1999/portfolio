@@ -7,14 +7,17 @@ export const Hero = () => {
   return (
     <section className={styles.container}>
       <div className={styles.content}>
-         <h1 className={styles.title}>Hi, I'm </h1>
+         <h1 className={styles.title}>Hi, I'm  
         <span id={styles.flip}>
-          <span className={styles.flipItem}>Trishna</span>
-          <span className={styles.flipItem}>Fullstack Developer</span>
+          <span className={styles.flipItem}> Trishna</span>
+          <span className={styles.flipItem}> a Fullstack Developer</span>
         </span>
+        </h1>
         <p className={styles.description}>
-          I'm a full-stack developer with 5 years of experience using React and
-          NodeJS. Reach out if you'd like to learn more!
+        Possess over 1.5 years of experience as a Software Engineer, focusing
+        on Full Stack Development, while building an understanding of both
+        Front-end and Back-end technologies,expertise in UI/UX design principles, API integration, and Database
+        Management,and agile practices.
         </p>
         <a href="mailto:myemail@email.com" className={styles.contactBtn}>
           Contact Me
@@ -25,8 +28,6 @@ export const Hero = () => {
         alt="Hero image of me"
         className={styles.heroImg}
       />
-      <div className={styles.topBlur} />
-      <div className={styles.bottomBlur} />
     </section>
   );
 };

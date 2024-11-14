@@ -1,29 +1,26 @@
 [
+    {
+    "role": "MERN Stack Intern",
+    "organisation": "Cuvette",
+    "startDate": "Jan, 2024",
+    "endDate": "July, 2024",
+    "experiences": [
+      "Gained handson experience in the MERN stack and real-time project execution",
+      "Design and develop capstone projects, which involved managing tasks through a user-friendly interface"
+    ],
+    "imageSrc": "history/cuvette.png"
+  },
   {
     "role": "Software Engineer",
-    "organisation": "Google",
-    "startDate": "Sept, 2022",
-    "endDate": "Present",
-    "experiences": ["Worked on Google Maps", "Reduced load times by 50%"],
-    "imageSrc": "history/google.png"
-  },
-  {
-    "role": "UI Designer",
-    "organisation": "Mirosoft",
-    "startDate": "Aug, 2021",
-    "endDate": "Aug, 2022",
-    "experiences": ["Worked on Windows 11", "Designed the control panel"],
-    "imageSrc": "history/microsoft.png"
-  },
-  {
-    "role": "SWE Intern",
-    "organisation": "Netflix",
-    "startDate": "Apr, 2020",
-    "endDate": "Jun, 2020",
+    "organisation": "Byju's",
+    "startDate": "Oct, 2021",
+    "endDate": "Mar, 2023",
     "experiences": [
-      "Worked on component library",
-      "Helped create UI components"
-    ],
-    "imageSrc": "history/netflix.png"
+      "Led the development of front-end and back-end components",
+     "Provided technical support to team members",
+     "Designed and integrated APIs and robust database schemas",
+     "Collaborated with teams for requirement gathering and code reviews"],
+    "imageSrc": "history/Byjus.png"
   }
+
 ]

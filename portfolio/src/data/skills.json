@@ -7,6 +7,10 @@
     "title": "CSS",
     "imageSrc": "skills/css.png"
   },
+   {
+    "title": "Javascript",
+    "imageSrc": "skills/js.png"
+  },
   {
     "title": "React",
     "imageSrc": "skills/react.png"
@@ -15,9 +19,13 @@
     "title": "Node",
     "imageSrc": "skills/node.png"
   },
+    {
+    "title": "Express",
+    "imageSrc": "skills/express.png"
+  },
   {
-    "title": "GraphQL",
-    "imageSrc": "skills/graphql.png"
+    "title": "mysql",
+    "imageSrc": "skills/mysql.png"
   },
   {
     "title": "MongoDB",

@@ -1,4 +1,5 @@
 @import "../../vars.css";
+@import url('https://fonts.googleapis.com/css2?family=Festive&family=Lavishly+Yours&display=swap');
 
 .navbar {
   position: fixed;
@@ -10,15 +11,18 @@
   padding-top: 2px;
   z-index: 2;
   color: white;
-  padding: 1rem;
+  padding: 0.3rem 1rem;
   background: rgba(44, 14, 216, 0.5);
   backdrop-filter: blur(4.5px);
   -webkit-backdrop-filter: blur(4.5px);
 }
 
 .title {
-font-weight: 800;
-font-size: 2rem;
+   font-family: "Lavishly Yours", cursive;
+  font-weight: 800;
+  font-size:30px;
+  padding-left: 2rem;
+  font-style: normal;
 }
 
 

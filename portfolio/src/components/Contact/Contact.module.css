@@ -1,9 +1,9 @@
 @import "../../vars.css";
 
 .container {
-  color: var(--color-text);
+  color:  var(--color-secondary);
   margin-top: 120px;
-  background-color: var(--color-secondary);
+  background-color:rgb(100, 87, 223);
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -11,15 +11,14 @@
   padding: 58px 10%;
   gap: 10px;
 }
-
-.text h2 {
-  font-size: 80px;
-  font-weight: 700;
-  letter-spacing: 4px;
+.text {
+  display:flex;
+  flex-direction: column;
+  gap:2rem;
 }
 
-.text p {
-  font-size: 40px;
+.text h2 {
+  font-size: 35px;
   font-weight: 400;
   letter-spacing: 2px;
 }
@@ -29,7 +28,7 @@
   flex-direction: column;
   align-items: flex-start;
   list-style: none;
-  gap: 26px;
+  gap: 16px;
 }
 
 .link {
@@ -38,12 +37,53 @@
   gap: 25px;
 }
 
-.link a {
-  color: var(--color-text);
+.behance{
+   width: 43px;
+}
+
+.link a,.link h3 {
+  color: var(--color-secondary);
   text-decoration: none;
-  font-size: 30px;
+  font-size: 20px;
   font-weight: 400;
   letter-spacing: 1.5px;
+}
+
+.contactBtn {
+  text-decoration: none;
+  border-radius: 100px;
+  font-size: 20px;
+  padding: 10px 20px;
+  width:fit-content;
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+    background-color: rgb(100, 87, 223);
+  color: white; 
+  border:0.3rem rgb(253, 253, 253) solid;
+  font-weight: 500; 
+}
+
+.contactBtn:hover{
+background-color:white;
+  color:rgb(100, 87, 223);
+  font-weight: 600;
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+.call{
+  width:50px;
+}
+
+.location{
+  width:40px;
+}
+
+.copyright{
+  display: flex;
+  justify-content: center;
+  background-color: rgb(100, 87, 223);
+  color: white; 
+  font-weight: 100;
+  padding: 2rem 0;
 }
 
 @media screen and (max-width: 830px) {
