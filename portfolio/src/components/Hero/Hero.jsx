@@ -8,17 +8,14 @@ export const Hero = () => {
     <section className={styles.container}>
       <div className={styles.content}>
          <h1 className={styles.title}>Hi, I'm  
-        <span id={styles.flip}>
+        <h1 id={styles.flip}>
           <span className={styles.flipItem}> Trishna</span>
           <span className={styles.flipItem}> a Fullstack Developer</span>
-        </span>
+        </h1>
         </h1>
         <p className={styles.description}>
-        Possess over 1.5 years of experience as a Software Engineer, focusing
-        on Full Stack Development, while building an understanding of both
-        Front-end and Back-end technologies,expertise in UI/UX design principles, API integration, and Database
-        Management,and agile practices.
-        </p>
+        Experienced Software Engineer with 1.5 years in Full Stack Development,
+        specializing in UI/UX design, API integration, and database management.</p>
         <a href="mailto:myemail@email.com" className={styles.contactBtn}>
           Contact Me
         </a>

@@ -17,20 +17,19 @@
   align-items: flex-start;
   color: rgb(100, 87, 223);
   z-index: 1;
+  
 }
 
 .title {
-  font-size: 2.5rem;
+  font-size: 2.2rem;
   font-weight: 900;
-  margin: 4rem 0;
-  font-family: var(--font-roboto);
-  color:rgb(100, 87, 223);
+  margin: 2rem 0;
+  color:var(--color-text);
   -webkit-background-clip: text;
 }
 
 .description {
-  font-size: 30px;
-  font-family: var(--font-roboto);
+  font-size: 25px;
   margin-bottom: 52px;
 }
 
@@ -62,7 +61,7 @@
 
 
 #flip {
-  font-size: 3rem;
+  font-size: 2.2rem;
   color: #f13fcbe7;
   font-weight: bold;
 
@@ -70,8 +69,6 @@
 
 .flipItem {
   position: absolute;
-  top:8rem;
-  left: 0;
   width: 100%;
   opacity: 0;
   animation: flip 4s infinite ease-in-out;
@@ -109,11 +106,34 @@
 
 
 @media screen and (max-width: 830px) {
+  .heroImg {
+  width: 15rem;
+  z-index: 1;
+  animation-name: zoom;
+  animation-duration: 3s;
+
+}
   .container {
+    text-align: center;
     flex-direction: column-reverse;
   }
 
   .content {
     align-items: center;
+  }
+  .title{
+  font-size: 28px;
+  }
+  #flip{
+     font-size: 30px;
+     display: flex;
+     justify-content: center;
+
+ }
+ .flipItem{
+  
+ }
+  .description{
+     font-size: 20px;
   }
 }

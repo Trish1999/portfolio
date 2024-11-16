@@ -54,7 +54,6 @@
 
 .skill p {
   font-size: 25px;
-  font-family: var(--font-roboto);
   font-weight: 500;
 }
 
@@ -62,7 +61,8 @@
   width: 45%;
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  margin-top: 2rem;
+  gap: 20px;
 }
 
 .historyItem {
@@ -70,19 +70,21 @@
   flex-direction: row;
   align-items: center;
   gap: 17px;
-  background: #19376d;
-  background: linear-gradient(90deg, #6457df 0%, rgba(25, 55, 109, 0) 100%);
+  background:#6457df;
+  background: linear-gradient(50deg, #968ee4 0%, rgba(25, 55, 109, 0) 100%);
   border-radius: 10px;
   padding: 24px;
+}
+
+.historyItem:hover{
+   box-shadow: 0 8px 15px rgba(0, 0, 0, 0.5);
+  transform: translateY(-5px);
 }
 
 .historyItem img {
   width: 70px;
 }
 
-.historyItemDetails {
-  font-family: var(--font-roboto);
-}
 
 .historyItemDetails h3 {
   font-size: 25px;
