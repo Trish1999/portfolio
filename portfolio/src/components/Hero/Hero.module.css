@@ -1,139 +1,177 @@
-@import "../../vars.css";
-
 .container {
   position: relative;
   display: flex;
+  justify-content: center;
   align-items: center;
-  justify-content: space-between;
-  margin-top: 49px;
-  z-index: 1;
-  margin-left: 10%;
-  margin-right: 10%;
+  text-align: center;
+  height: 100vh;
+  overflow: hidden;
 }
 
-.content {
+.background {
+  width: 100%;
+  height: 100%;
+   background: linear-gradient(130deg, #968ee4, #d875e7);
+  position: relative;
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  color: rgb(100, 87, 223);
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.background::before,
+.background::after {
+  content: "";
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
   z-index: 1;
-  
+
+}
+
+.background::before {
+  top: 10%;
+  left: 20%;
+}
+
+.background::after {
+  bottom: 15%;
+  right: 25%;
+}
+
+
+.content {
+  position: relative;
+  z-index: 2;
+  max-width: 700px;
+  color: #fff;
+  text-align: left;
 }
 
 .title {
-  font-size: 2.2rem;
-  font-weight: 900;
-  margin: 2rem 0;
-  color:var(--color-text);
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.highlight {
+  color: #fff;
+  background: linear-gradient(45deg, #ce15a6, #1e3a8a);
   -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .description {
-  font-size: 25px;
-  margin-bottom: 52px;
+  font-size: 1.5rem;
+  margin: 1rem 0 2rem;
+  color: #f1f1f1;
 }
 
-.contactBtn {
+.resumeBtn {
   text-decoration: none;
-  background-color:white;
-  color:rgb(100, 87, 223);
   border-radius: 100px;
-  border:0.3rem rgb(100, 87, 223) solid;
   font-size: 20px;
-  font-weight: 600;
   padding: 10px 20px;
+  width:fit-content;
   box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
-}
-
-.contactBtn:hover{
-  background-color: rgb(100, 87, 223);
+    background-color: rgb(100, 87, 223);
   color: white; 
+  border:0.3rem rgb(253, 253, 253) solid;
   font-weight: 500; 
 }
 
-.heroImg {
-  width: 25rem;
-  z-index: 1;
-  animation-name: zoom;
-  animation-duration: 3s;
+.resumeBtn:hover{
+background-color:white;
+  color:rgb(100, 87, 223);
+  font-weight: 600;
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+}
+.profile {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+}
 
+.profileImage {
+  width: 350px;
+  border: none;
+  object-fit: cover;
+}
+
+.profileName {
+  font-size: 1.5rem;
+  color: #1e3a8a;
+  font-weight: 600;
+  padding:0.6rem 2rem;
+ border-radius: 100px;
+   background: rgba(238, 238, 241, 0.5);
+  backdrop-filter: blur(4.5px);
+  -webkit-backdrop-filter: blur(4.5px);
 }
 
 
-#flip {
-  font-size: 2.2rem;
-  color: #f13fcbe7;
-  font-weight: bold;
-
-}
-
-.flipItem {
-  position: absolute;
-  width: 100%;
-  opacity: 0;
-  animation: flip 4s infinite ease-in-out;
-}
-
-.flipItem:nth-child(1) {
-  animation-delay: 0s;
-}
-
-.flipItem:nth-child(2) {
-  animation-delay: 2s;  
-}
-
-@keyframes flip {
-  0%, 40%, 100% {
-    opacity: 0;  
-  }
-  10%, 30% {
-    opacity: 1; 
-  }
-}
-
-
-
-@keyframes zoom{
-    from {
-        transform: scale(0)
-    }
-
-    to {
-        transform: scale(1)
-    }
-}
-
-
-
-@media screen and (max-width: 830px) {
-  .heroImg {
-  width: 15rem;
-  z-index: 1;
-  animation-name: zoom;
-  animation-duration: 3s;
-
-}
+@media (max-width: 768px) {
   .container {
-    text-align: center;
-    flex-direction: column-reverse;
+    flex-direction: column;
+    height: auto;
+    padding-top:2rem;
+  }
+
+  .background {
+    flex-direction: column;
+    padding: 1rem;
+  }
+
+  .background::before,
+  .background::after {
+    width: 200px;
+    height: 200px;
+  }
+
+  .background::before {
+    top: 5%;
+    left: 10%;
+  }
+
+  .background::after {
+    bottom: 10%;
+    right: 15%;
   }
 
   .content {
-    align-items: center;
+    max-width: 100%;
+    text-align: center;
+    padding: 0 1rem;
   }
-  .title{
-  font-size: 28px;
-  }
-  #flip{
-     font-size: 30px;
-     display: flex;
-     justify-content: center;
 
- }
- .flipItem{
-  
- }
-  .description{
-     font-size: 20px;
+  .title {
+    font-size: 2rem;
+    line-height: 1.4;
+  }
+
+  .description {
+    font-size: 1.2rem;
+    margin: 2rem 0;
+  }
+
+  .resumeBtn {
+    font-size: 1rem;
+    padding: 0.6rem 1rem;
+      border:0.2rem rgb(253, 253, 253) solid;
+  }
+
+
+  .profileImage {
+    width: 250px;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  .profileName {
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
   }
 }
+
