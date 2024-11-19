@@ -13,8 +13,12 @@ export const Hero = () => {
        <p className={styles.description}>
              Experienced Software Engineer with 1.5 years in Full Stack Development,
         specializing in UI/UX design, API integration, and database management.</p>
-          <a href="#resume" className={styles.resumeBtn}>
-            My Resume
+                  <a 
+            href="/resume.pdf" 
+            className={styles.resumeBtn} 
+            download="Trishnarani_Patel_Resume.pdf"
+          >
+            Download Resume
           </a>
         </div>
         <div className={styles.profile}>

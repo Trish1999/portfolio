@@ -80,11 +80,16 @@
   }
 
   .aboutItems {
-    margin-top: 29px;
+    margin: 29px;
+  
   }
 
   .aboutItem {
-    padding-left: 0;
+    padding-left: 1rem;
     padding-right: 0;
   }
+
+  .aboutItem p {
+  font-size: 20px;
+}
 }

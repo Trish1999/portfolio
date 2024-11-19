@@ -108,7 +108,7 @@
   .content {
     flex-direction: column;
     align-items: center;
-    gap: 34px;
+    gap: 25px;
   }
 
   .skills {
@@ -116,6 +116,18 @@
     flex-direction: row;
     justify-content: center;
   }
+  .skill p{
+     font-size: 22px;
+  }
+
+  .skillImageContainer  {
+  width: 60px;
+ 
+}
+
+.skillImageContainer img {
+  width: 55px;
+}
 
   .history {
     width: 100%;

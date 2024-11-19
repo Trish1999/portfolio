@@ -1,23 +1,28 @@
 [
   {
-    "title": "Project A",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "title": "Task Manager",
+    "imageSrc": "projects/task.png",
+    "description": "This is a project having features like task organization, filtering, and assignment,allowing users to add, edit, move, and share tasks easily.",
+    "demo": "https://task-manager-app-frontendvercelcom-trish1999s-projects.vercel.app/"
   },
   {
-    "title": "Project B",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "title": "Story Blog App",
+    "imageSrc": "projects/storyblog.png",
+    "description": "This is a project enabled users to register, log in, and create detailed stories with headings,descriptions, images, and category selection.",
+    "demo": "https://story-blog-app-frontendvercelapp-trish1999s-projects.vercel.app"
   },
   {
-    "title": "Project C",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "title": "Quizzer",
+    "imageSrc": "projects/quiz.png",
+    "description": "This is a project  Implemented a comprehensive dashboard for managing quiz creations, analytics, and user engagement, with options to edit, delete, and share quizzes.",
+    "demo": "https://t-patel-quizapp-frontend.vercel.app/"
+  },
+  {
+    "title": "Music Player",
+    "imageSrc": "projects/music.png",
+    "description": "This is a project having an interactive playlist with seamless playback controls, real-time song duration, and a smooth, user-friendly music experience",
+    "demo": "https://music-playervercelcom-trish1999s-projects.vercel.app/"
   }
+
+
 ]
