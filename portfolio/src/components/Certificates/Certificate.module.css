@@ -2,9 +2,8 @@
 
 .container {
   color: var(--color-text);
-  margin-top: 79px;
-
   text-align: center;
+  padding: 3rem;
 }
 
 .title {
@@ -31,5 +30,13 @@
   height:300px;
   width:400px;
    box-shadow: 0 16px 14px 0 #04152d;
+}
+
+@media screen and (max-width: 830px) {
+
+.image {
+  height:210px;
+  width:300px;
+}
 }
 

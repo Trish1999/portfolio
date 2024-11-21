@@ -70,8 +70,7 @@
   flex-direction: row;
   align-items: center;
   gap: 17px;
-  background:#6457df;
-  background: linear-gradient(50deg, #968ee4 0%, rgba(25, 55, 109, 0) 100%);
+  background:#968ee4 ;
   border-radius: 10px;
   padding: 24px;
 }

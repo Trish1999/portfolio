@@ -3,8 +3,8 @@
 .container {
   display: flex;
   flex-direction: column;
-  background: linear-gradient(180deg, #ccd0df 0%, #766bdd 100%);
-  box-shadow: 0 16px 14px 0 #04152d;
+  background: linear-gradient(180deg, #f1f1f3 0%, #766bdd 100%);
+  box-shadow: 5px 5px 5px 0 #04152d;
   max-width: 300px;
 }
 

@@ -20,14 +20,14 @@ export const Contact = () => {
         <h3>Bengaluru, Karnataka</h3>
         </li>
         </ul>
-          <a href="mailto:myemail@email.com" className={styles.contactBtn}>
+          <a href="t.patel28.1999@email.com" className={styles.contactBtn}>
           Write a Mail 
         </a>
       </div>
       <ul className={styles.links}>
         <li className={styles.link}>
           <img src={getImageUrl("contact/emailIcon.png")} alt="Email icon" />
-          <a href="mailto:myemail@email.com">t.patel28.1999@gmail.com</a>
+          <a href="t.patel28.1999@email.com">t.patel28.1999@gmail.com</a>
         </li>
                 <li className={styles.link}>
           <img
@@ -35,18 +35,18 @@ export const Contact = () => {
             alt="Behance icon"
             className={styles.behance}
           />
-          <a href="https://www.linkedin.com/myname">behance.com/trishna</a>
+          <a href="https://www.behance.net/trishnapatel3/projects">behance.com/trishna</a>
         </li>
         <li className={styles.link}>
           <img src={getImageUrl("contact/githubIcon.png")} alt="Github icon" />
-          <a href="https://www.github.com/myname">github.com/trishna</a>
+          <a href="https://github.com/Trish1999">github.com/trishna</a>
         </li>
                 <li className={styles.link}>
           <img
             src={getImageUrl("contact/linkedinIcon.png")}
             alt="LinkedIn icon"
           />
-          <a href="https://www.linkedin.com/myname">linkedin.com/trishna</a>
+          <a href="http://linkedin.com/in/trishnarani-patel-396b711ab">linkedin.com/trishna</a>
         </li>
       </ul>
 
