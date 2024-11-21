@@ -93,15 +93,12 @@ background-color:white;
     gap: 23px;
   }
 
-  .text {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
 
-  .links {
-    align-items: center;
+  .links,.text {
+     display: flex;
+  justify-content: flex-start;
   }
+  
   .contactBtn{
     display: none;
   }

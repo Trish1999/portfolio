@@ -56,6 +56,7 @@
   max-width: 700px;
   color: #fff;
   text-align: left;
+  padding:2rem;
 }
 
 .title {
@@ -100,6 +101,7 @@ background-color:white;
   position: relative;
   z-index: 2;
   text-align: center;
+  padding:2rem;
 }
 
 .profileImage {
