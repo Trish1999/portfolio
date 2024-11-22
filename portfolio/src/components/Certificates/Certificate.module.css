@@ -17,19 +17,22 @@
 }
 
 .certificate {
-  padding: 2rem;
+  padding: 2rem 0rem;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  gap:5rem;
+  justify-content:center;
+  gap:1rem;
+}
+
+.image:hover{
+  box-shadow: 0 16px 14px 0 #04152d;  transform: scale(0.5rem)
 }
 
 .image {
   height:300px;
   width:400px;
-   box-shadow: 0 16px 14px 0 #04152d;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.5);
 }
 
 @media screen and (max-width: 830px) {

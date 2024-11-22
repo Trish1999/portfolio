@@ -5,7 +5,7 @@ import { Experience } from "./components/Experience/Experience";
 import { Hero } from "./components/Hero/Hero";
 import { Navbar } from "./components/Navbar/Navbar";
 import { Projects } from "./components/Projects/Projects";
-import {Cretificate} from "./components/Certificates/Cretificate";
+import {Certificate} from "./components/Certificates/Certificate";
 
 function App() {
   return (
@@ -15,7 +15,7 @@ function App() {
       <About />
       <Experience />
       <Projects />
-      <Cretificate/>
+      <Certificate/>
       <Contact />
     </div>
   );

@@ -75,10 +75,7 @@
   padding: 24px;
 }
 
-.historyItem:hover{
-   box-shadow: 0 8px 15px rgba(0, 0, 0, 0.5);
-  transform: translateY(-5px);
-}
+
 
 .historyItem img {
   width: 70px;
